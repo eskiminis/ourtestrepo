@@ -1,0 +1,17 @@
+phpSGE 071 by Aldrigo Raffaele & Kushnir Nikita
+
+FIX(RAFFA):
+-fix admincp
+-reverted admincp
+-fix main.php (unit movement display table)
+
+Fixes(AgManiX):
+-fixed multistyle in admin cp
+-fixed credits.php (specially for new design)
+-fixed multilanguage system in rulers.php
+
+:_ BUGS _:
+-ally.php(user can create aliance with the same name as exist)
+-register.php(user can create city with the same name as exist)
+
+Developer: Kushnir Nikita

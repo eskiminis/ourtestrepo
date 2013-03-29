@@ -1,0 +1,27 @@
+#phpSGE Robots.txt v0.2 by Kushnir Nikita
+#Skype: student19_95
+User-agent: *
+Disallow: /adm/
+Disallow: /install/
+Disallow: /lang/
+Disallow: /plugins/
+Disallow: /templates/
+Disallow: config.php
+Disallow: frchat.php
+Disallow: func.php
+Disallow: log-reg.php
+Disallow: chat.php
+Disallow: Version.txt
+Disallow: settings.php
+Disallow: research.php
+Disallow: profile.php
+Disallow: menu.php
+Disallow: market.php
+Disallow: main.php
+Disallow: log-reg.php
+Disallow: highscore.php
+Disallow: head.php
+Disallow: buildings.php
+Disallow: battle.php
+Disallow: barraks.php
+Disallow: ally.php

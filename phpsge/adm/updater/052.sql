@@ -1,0 +1,2 @@
+ALTER TABLE `%PREFIX%t_builds` ADD `maxlev` INT( 3 ) NOT NULL DEFAULT '0' COMMENT '0 = no max level';
+UPDATE `%PREFIX%conf` SET `sge_ver` =  '053' WHERE CONVERT( `sge_ver` USING utf8 ) =  '052' LIMIT 1 ;

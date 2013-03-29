@@ -1,0 +1,2 @@
+ALTER TABLE `%PREFIX%t_research` ADD `desc` VARCHAR( 50 ) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL AFTER `name` ;
+UPDATE `%PREFIX%conf` SET `sge_ver` =  '049' WHERE CONVERT( `sge_ver` USING utf8 ) =  '048' LIMIT 1 ;

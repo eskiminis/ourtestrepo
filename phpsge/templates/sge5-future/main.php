@@ -1,0 +1,107 @@
+<?
+$nwq=mysql_query ("SELECT `news1` FROM ".TB_PREFIX."conf");
+$news=mysql_fetch_array($nwq);
+?>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title><?php echo SERVER_NAME; ?></title>
+
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="templates/sge5-future/style.css" type="text/css" media="screen" />
+    <!--[if IE 6]><link rel="stylesheet" href="style.ie6.css" type="text/css" media="screen" /><![endif]-->
+    <!--[if IE 7]><link rel="stylesheet" href="style.ie7.css" type="text/css" media="screen" /><![endif]-->
+
+    <script type="text/javascript" src="templates/sge5-future/script.js"></script>
+</head>
+<body>
+<div id="art-page-background-simple-gradient">
+        <div id="art-page-background-gradient"></div>
+    </div>
+    <div id="art-page-background-glare">
+        <div id="art-page-background-glare-image"></div>
+    </div>
+    <div id="art-main">
+        <div class="art-sheet">
+            <div class="art-sheet-tl"></div>
+            <div class="art-sheet-tr"></div>
+            <div class="art-sheet-bl"></div>
+            <div class="art-sheet-br"></div>
+            <div class="art-sheet-tc"></div>
+            <div class="art-sheet-bc"></div>
+            <div class="art-sheet-cl"></div>
+            <div class="art-sheet-cr"></div>
+            <div class="art-sheet-cc"></div>
+            <div class="art-sheet-body">
+                <div class="art-header">
+                    <div class="art-header-png"></div>
+                    <div class="art-header-jpeg"></div>
+                    <div class="art-logo">
+                        <h1 id="name-text" class="art-logo-name"><a href="#"><?php echo SERVER_NAME; ?></a></h1>
+                        <div id="slogan-text" class="art-logo-text"><span class="bar-r"><?php echo SUB_DESC; ?></span></div>
+                    </div>
+                </div>
+                <div class="art-content-layout">
+                    <div class="art-content-layout-row">
+                        <?php include "menu.php"; ?>
+                        
+                        <div class="art-layout-cell art-content">
+                            <div class="art-post">
+                                <div class="art-post-body">
+                            <div class="art-post-inner art-article">
+                                            <h2 class="art-postheader">
+                                              <?php include "ubar.php"; ?></h2>
+                                            <div class="art-postcontent">
+                                                
+                                               <div class="art-post">
+                                <div class="art-post-body">
+                            <div class="art-post-inner art-article">
+                                            <h2 class="art-postheader">
+                                                <img src="templates/sge5-future/images/postheadericon.png" width="26" height="26" alt="postheadericon" />
+                                                <?=$lang['news'];?><a class="hovered" href="#" rel="bookmark"></a>
+                                            </h2>
+                                            <div class="art-postcontent">
+                                                <!-- article-content -->
+                                                <p> <?php echo $news['news1']; ?> </p>
+                                            </div>
+<hr>
+<br>
+                                               <?=$body;?>
+                                                <div class="cleared"></div>
+                                                <div class="art-content-layout overview-table">
+                                                	<div class="art-content-layout-row"><!-- end cell --><!-- end cell --><!-- end cell -->
+                                                	</div><!-- end row -->
+                                                </div><!-- end table -->
+                                                    
+                                                <!-- /article-content -->
+                                            </div>
+                                            <div class="cleared"></div>
+                            </div>
+                            
+                            		<div class="cleared"></div>
+                                </div>
+                            </div>
+                            <div class="art-post"></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                <div class="cleared"></div>
+		<div class="art-footer">
+                    <div class="art-footer-t"></div>
+                    <div class="art-footer-l"></div>
+                    <div class="art-footer-b"></div>
+                    <div class="art-footer-r"></div>
+                    <div class="art-footer-body">
+                        <? include "footer.php" ?>
+                		<div class="cleared"></div>
+                    </div>
+                </div>
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        <div class="cleared"></div>
+    </div>
+</body>
+</html>

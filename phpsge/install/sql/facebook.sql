@@ -1,0 +1,1 @@
+ALTER TABLE `%PREFIX%users` ADD `fbuid` INT( 11 ) NULL COMMENT 'facebook id for phpsge facebook plugin';

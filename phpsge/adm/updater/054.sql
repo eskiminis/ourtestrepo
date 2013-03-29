@@ -1,0 +1,1 @@
+UPDATE `%PREFIX%conf` SET `sge_ver` =  '055' WHERE CONVERT( `sge_ver` USING utf8 ) =  '054' LIMIT 1 ;

@@ -1,0 +1,2 @@
+INSERT INTO `%PREFIX%t_unt` (`id`, `name`, `race`, `img`, `atk`, `dif`, `vel`, `res_car_cap`, `pop_req`, `c_res1`, `c_res2`, `c_res3`, `etime`, `desc`, `type`, `req_bud`, `rb_lev`, `req_res`, `rr_lev`) VALUES (3, 'Carvan', 0, 'pioner.gif', 0, 100, 7, 0, 100, 1000, 700, 200, 150, 'Colonizator Carvan, you can build a new city', 'column', 0, 0, 0, 0);
+UPDATE `%PREFIX%conf` SET `sge_ver` =  '063' WHERE CONVERT( `sge_ver` USING utf8 ) =  '062' LIMIT 1 ;
