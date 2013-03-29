@@ -40,7 +40,7 @@ class Snoopy
 	var $proxy_host		=	"";					// proxy host to use
 	var $proxy_port		=	"";					// proxy port to use
 	var $proxy_user		=	"";					// proxy user to use
-	var $proxy_pass		=	"";					// proxy password to use
+	public $proxy_pass		=	"";					// proxy password to use
 	
 	var $agent			=	"Snoopy v1.2.4";	// agent we masquerade as
 	var	$referer		=	"";					// referer info to pass
