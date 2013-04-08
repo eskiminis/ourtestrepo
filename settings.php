@@ -1,4 +1,4 @@
 <?php
 return array(
-	'new' => 'feature'
+	'new' => 'feature',
 );
